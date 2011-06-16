@@ -15,6 +15,24 @@ set lines=60 columns=125
 set nu " Turn on line numbers
 set backspace=indent,eol,start
 set colorcolumn=80
+set history=1000
+set wildmenu
+set wildmode=list:longest
+set ignorecase
+set smartcase
+set scrolloff=3
+nnoremap <C-e> 3<C-e>
+nnoremap <C-y> 3<C-y>
+set ruler
+map <c-j> <c-w>j
+map <c-k> <c-w>k
+map <c-l> <c-w>l
+map <c-h> <c-w>h
+
+"Tab Completion
+au FileType python set omnifunc=pythoncomplete#Complete
+let g:SuperTabDefaultCompletionType = "context"
+set completeopt=menuone,longest
 
 " Formatting settings
 set shiftwidth=4
