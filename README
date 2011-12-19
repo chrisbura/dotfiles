@@ -1,0 +1,23 @@
+dotfiles
+====
+
+Commands taken from [Synchronizing plugins with git submodules and pathogen](http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/). Mirrored here for future reference.
+
+Adding submodule
+---
+
+    git submodule add http://github.com/username/vim-repository.git vimfiles/bundle/repository
+    git add .
+    git commit -m "Added repository.vim"
+
+Setup
+---
+
+    git clone http://github.com/chrisbura/dotfiles.git
+    cd dotfiles
+    git submodule update --init
+
+Updating all submodules
+
+    git submodule foreach git pull origin master
+
