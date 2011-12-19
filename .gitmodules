@@ -1,15 +1,18 @@
 [submodule "vimfiles/bundle/vim-colors-solarized"]
 	path = vimfiles/bundle/vim-colors-solarized
-	url = https://github.com/altercation/vim-colors-solarized.git
+    url = https://github.com/altercation/vim-colors-solarized.git
+    ignore = dirty
 [submodule "vimfiles/bundle/nerdtree"]
 	path = vimfiles/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
 [submodule "vimfiles/bundle/snipmate"]
 	path = vimfiles/bundle/snipmate
-	url = https://github.com/msanders/snipmate.vim.git
+    url = https://github.com/msanders/snipmate.vim.git
+    ignore = dirty
 [submodule "vimfiles/bundle/surround"]
 	path = vimfiles/bundle/surround
-	url = https://github.com/tpope/vim-surround.git
+    url = https://github.com/tpope/vim-surround.git
+    ignore = dirty
 [submodule "vimfiles/bundle/supertab"]
 	path = vimfiles/bundle/supertab
 	url = https://github.com/ervandew/supertab.git

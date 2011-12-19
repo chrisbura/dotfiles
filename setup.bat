@@ -1,2 +1,2 @@
-mklink "C:\Users\Chris\_vimrc" "D:\Programming\Environment\dotfiles\_vimrc"
-mklink /D "C:\Users\Chris\vimfiles" "D:\Programming\Environment\dotfiles\vimfiles"
+mklink "C:\Users\Chris\_vimrc" "D:\Programming\Config\dotfiles\_vimrc"
+mklink /D "C:\Users\Chris\vimfiles" "D:\Programming\Config\dotfiles\vimfiles"
