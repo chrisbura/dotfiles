@@ -8,6 +8,7 @@ call pathogen#helptags()
 " solarized
 set background=dark
 colorscheme solarized
+let g:solarized_italic=0
 
 " User interface settings
 winpos 325 50
