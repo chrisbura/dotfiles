@@ -90,4 +90,5 @@ fi
 
 # Git Aliases
 alias gs='git status'
-
+alias ga='git add -i'
+alias gk='gitk'
